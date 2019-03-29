@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+       <head>
+          <link href="styles/styles.css" type="text/css" rel="stylesheet"/>          
+       </head>
+<body>
+ <div class="header">
+        <div class="container">
+                     <h1 class="header__title">NOTES APP</h1>
+                     <h2 class="header__subtitle"> Your notes</h2>
+        </div>
+ </div>      
+ <div class="actions">
+       <div class="actions__container"> 
+           <input id="filter-text" class="input" type="text" placeholder="enter filter text">
+         <select id="selector" class="dropdown">
+              <option value="recent">Sort by recently created </option>
+              <option value="letter">Sort by alphabetic order</option>
+              <option value="edited">Sort by last edited</option>
+         </select>
+       </div> 
+  </div>
+ <div id="disp">
+
+ </div>
+ 
+
+             
+        <button id="add-note" class="button">Add note</button>
+       
+        
+        <script src="/scripts/index-bundle.js"></script>
+        
+</body>
+</html>
